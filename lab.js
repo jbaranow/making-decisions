@@ -10,9 +10,9 @@
 let lovesCode = true
 
 if (lovesCode === true) {
-  console.log('I love to code!')
+  console.log('I love to code!');
 } else {
-  console.log('Coding has its challenges.')
+  console.log('Coding has its challenges.');
 }
 
 // For problems 2-3 use the following lines of code:
@@ -34,18 +34,19 @@ let amysBirthYear = 1991;
 let brittanisBirthYear = 1986;
 
 if (amysAge > brittanisAge) {
-  console.log('Amy is older.')
+  console.log('Amy is older.');
 } else if (amysAge === brittanisAge) {
-  console.log('They are the same age.')
+  console.log('They are the same age.');
 }    else {
-    console.log('Brittanis is older.')
+    console.log('Brittani is older.');
     }
 
 
 ////////// PROBLEM 3 //////////
 
 /*
-  Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
+  Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. 
+  If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
 
 //CODE HERE
@@ -55,9 +56,9 @@ let amysBirthYear = 1991;
 let brittanisBirthYear = 1986;
 
 if (amysBirthYear === brittanisBirthYear) {
-  console.log('Amy & Brittani were born in the same year.')
+  console.log('Amy & Brittani were born in the same year.');
 } else {
-  console.log('Amy & Brittani were not born in the same year.')  
+  console.log('Amy & Brittani were not born in the same year.');
 }
 
 ////////// PROBLEM 4 //////////
@@ -67,10 +68,12 @@ let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
-  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
+  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. 
+  If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
 //CODE HERE
+
 
 ////////// PROBLEM 5 //////////
 
@@ -129,6 +132,7 @@ let passingScore = 7;
 ////////// PROBLEM 11 //////////
 
 let z = 5;
-// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
+// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. 
+//If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
