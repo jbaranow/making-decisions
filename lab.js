@@ -63,8 +63,8 @@ if (amysBirthYear === brittanisBirthYear) {
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
-let rain = true;
+//let temperature = 55;
+//let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -126,8 +126,8 @@ for (let i = 11; i > 1; i--){
 
 ////////// PROBLEM 8 //////////
 
-let score = 0;
-let passingScore = 7;
+//let score = 0;
+//let passingScore = 7;
 
 /*
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
@@ -152,16 +152,24 @@ while (score < passingScore) {
 */
 
 //CODE HERE
-let changeMyMind = true;
+let changeMyMind = false;
 
-changeMyMind = !changeMyMind;
-console.log(changeMyMind);
+if (changeMyMind === true) {
+  changeMyMind === false;
+  console.log('false');
+} else { (changeMyMind === false) 
+  changeMyMind === true;
+  console.log('true');
+}
+
 
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
+changeMyMind = !changeMyMind;
+console.log(changeMyMind);
 
 ////////// ADVANCED PROBLEMS //////////
 
