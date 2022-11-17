@@ -33,11 +33,14 @@ let brittanisAge = 34;
 let amysBirthYear = 1991;
 let brittanisBirthYear = 1986;
 
-if (amysAge >= brittanisAge) {
-  console.log('')
-} else {
-  
-}
+if (amysAge > brittanisAge) {
+  console.log('Amy is older')
+} else if (amysAge === brittanisAge) {
+  console.log('They are the same age')
+}    else {
+    console.log('Brittanis is older')
+    }
+
 
 ////////// PROBLEM 3 //////////
 
