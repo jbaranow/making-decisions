@@ -8,6 +8,7 @@
 
 //CODE HERE
 let lovesCode = true
+
 if (lovesCode === true) {
   console.log('I love to code!')
 } else {
@@ -27,6 +28,16 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+let amysAge = 29;
+let brittanisAge = 34;
+let amysBirthYear = 1991;
+let brittanisBirthYear = 1986;
+
+if (amysAge >= brittanisAge) {
+  console.log('')
+} else {
+  
+}
 
 ////////// PROBLEM 3 //////////
 
