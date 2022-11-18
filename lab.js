@@ -180,9 +180,18 @@ let z = 5;
 //If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
-while (z > 1) {
+while (z > 0) {
+  let changedVariable = z
+  while(changedVariable > 0){
+  console.log(changedVariable);
+  changedVariable--;
+  }
+  z--;
+  }
+
+/*while (z > 1) {
   z--;
 
   console.log(z);
-}
+}*/
 
